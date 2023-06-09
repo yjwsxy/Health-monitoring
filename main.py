@@ -303,7 +303,7 @@ def Heart_rate():
     st_echarts(
         options=options, height="400px",
     )
-    image = Image.open(dc.jpg)
+    image = Image.open("dc.jpg")
     st.image([image], caption=['Focus on Heart Health'], width=300)  # 放一张图片，caption是标题
     # st.image([image], caption=['food'],use_column_width=True) # 没有width的情况是这种就是图和上面的表大小对齐，不用调节宽度，一般是放一张图片的情况
     # st.image([image,image], caption=['food', 'food'],width = 300) #放多张图片
@@ -840,8 +840,8 @@ def Nutrition():
     with col4:
         st_echarts(options=options4, height="400px")
 
-    image1 = Image.open(shiwu1.jpg)
-    image2 = Image.open(shiwu2.jpg)
+    image1 = Image.open("shiwu1.jpg")
+    image2 = Image.open("shiwu2.jpg")
 
     st.image([image1, image2], caption=['food1', 'food2'], width=300)
 
