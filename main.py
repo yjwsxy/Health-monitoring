@@ -122,7 +122,7 @@ def main_page():
                 "label": {  # 标签的设置
                     "show": True,
                     "position": "top",
-                    "color": "#ffffff",
+                    "color": "#000000",
                     "fontSize": 16,
                     "formatter": "{c}",
                 },
@@ -140,7 +140,7 @@ def main_page():
                 "label": {  # 标签的设置
                     "show": True,
                     "position": "top",
-                    "color": "#ffffff",
+                    "color": "#000000",
                     "fontSize": 16,
                     "formatter": "{c}",
                 },
@@ -175,7 +175,7 @@ def main_page():
             "left": "left",  # 图例位置
             "data": ['0-20', '20-40', '40-60', '60-80'],
             "textStyle" : {
-                "color" : "white"
+                "color" : "black"
             }
         },
         "series": [  # 系列数据
@@ -303,7 +303,7 @@ def Heart_rate():
     st_echarts(
         options=options, height="400px",
     )
-    image = Image.open("dc.jpg")
+    image = Image.open(dc.jpg)
     st.image([image], caption=['Focus on Heart Health'], width=300)  # 放一张图片，caption是标题
     # st.image([image], caption=['food'],use_column_width=True) # 没有width的情况是这种就是图和上面的表大小对齐，不用调节宽度，一般是放一张图片的情况
     # st.image([image,image], caption=['food', 'food'],width = 300) #放多张图片
@@ -525,7 +525,7 @@ def Nutrition():
             "text": 'Health Monitoring - Radar',
             "left": 'center',
             "textStyle": {
-                "color": '#eee'
+                "color": '#000'
             }
         },
         "legend": {
@@ -533,7 +533,7 @@ def Nutrition():
             "data": ['AVG(All)', 'AVG(Male)'],
             "itemGap": 20,
             "textStyle": {
-                "color": '#fff',
+                "color": '#000',
                 "fontSize": 14
             },
         },
@@ -600,7 +600,7 @@ def Nutrition():
             "text": 'Health Monitoring - Radar',
             "left": 'center',
             "textStyle": {
-                "color": '#eee'
+                "color": '#000'
             }
         },
         "legend": {
@@ -608,7 +608,7 @@ def Nutrition():
             "data": ['AVG(All)', 'AVG(Female)'],
             "itemGap": 20,
             "textStyle": {
-                "color": '#fff',
+                "color": '#000',
                 "fontSize": 14
             },
         },
@@ -687,7 +687,7 @@ def Nutrition():
             "text": 'Health Monitoring - Radar',
             "left": 'center',
             "textStyle": {
-                "color": '#eee'
+                "color": '#000'
             }
         },
         "legend": {
@@ -695,7 +695,7 @@ def Nutrition():
             "data": ['AVG(All)', 'AVG(Age<35)'],
             "itemGap": 20,
             "textStyle": {
-                "color": '#fff',
+                "color": '#000',
                 "fontSize": 14
             },
         },
@@ -762,7 +762,7 @@ def Nutrition():
             "text": 'Health Monitoring - Radar',
             "left": 'center',
             "textStyle": {
-                "color": '#eee'
+                "color": '#000'
             }
         },
         "legend": {
@@ -770,7 +770,7 @@ def Nutrition():
             "data": ['AVG(All)', 'AVG(Age>35)'],
             "itemGap": 20,
             "textStyle": {
-                "color": '#fff',
+                "color": '#000',
                 "fontSize": 14
             },
         },
@@ -840,8 +840,8 @@ def Nutrition():
     with col4:
         st_echarts(options=options4, height="400px")
 
-    image1 = Image.open("shiwu1.jpg")
-    image2 = Image.open("shiwu2.jpg")
+    image1 = Image.open(shiwu1.jpg)
+    image2 = Image.open(shiwu2.jpg)
 
     st.image([image1, image2], caption=['food1', 'food2'], width=300)
 
