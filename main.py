@@ -145,7 +145,7 @@ def main_page():
                     "formatter": "{c}",
                 },
                 "itemStyle": {  # 样式的设置
-                    "color": "#6abf80",
+                    "color": "#008080",
                     "opacity": 0.6,
                     "barBorderRadius": 25,
                 },
@@ -159,7 +159,7 @@ def main_page():
             }, {
                 "name": "Female",
                 "icon": "circle",
-                "textStyle": {"color": "#6abf80"}
+                "textStyle": {"color": "#008080"}
             }]
         }
     }
