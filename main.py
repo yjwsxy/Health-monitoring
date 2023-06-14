@@ -529,7 +529,7 @@ def Nutrition():
             }
         },
         "legend": {
-            "bottom": 5,
+            "bottom": 15,
             "data": ['AVG(All)', 'AVG(Male)'],
             "itemGap": 20,
             "textStyle": {
@@ -604,7 +604,7 @@ def Nutrition():
             }
         },
         "legend": {
-            "bottom": 5,
+            "bottom": 15,
             "data": ['AVG(All)', 'AVG(Female)'],
             "itemGap": 20,
             "textStyle": {
@@ -691,7 +691,7 @@ def Nutrition():
             }
         },
         "legend": {
-            "bottom": 5,
+            "bottom": 15,
             "data": ['AVG(All)', 'AVG(Age<35)'],
             "itemGap": 20,
             "textStyle": {
@@ -766,7 +766,7 @@ def Nutrition():
             }
         },
         "legend": {
-            "bottom": 5,
+            "bottom": 15,
             "data": ['AVG(All)', 'AVG(Age>35)'],
             "itemGap": 20,
             "textStyle": {
