@@ -547,7 +547,7 @@ def Nutrition():
             "shape": 'circle',
             "splitNumber": 5,
             "axisName": {
-                "color": 'rgb(238, 197, 102)'
+                "color": 'rgb(0,0,0)'
             },
             "splitLine": {
                 "lineStyle": {
@@ -586,7 +586,7 @@ def Nutrition():
                 "data": data2,
                 "symbol": 'none',
                 "itemStyle": {
-                    "color": '#B3E4A1'
+                    "color": '#3434C9'
                 },
                 "areaStyle": {
                     "opacity": 0.05
@@ -622,7 +622,7 @@ def Nutrition():
             "shape": 'circle',
             "splitNumber": 5,
             "axisName": {
-                "color": 'rgb(238, 197, 102)'
+                "color": 'rgb(0,0,0)'
             },
             "splitLine": {
                 "lineStyle": {
@@ -661,7 +661,7 @@ def Nutrition():
                 "data": data3,
                 "symbol": 'none',
                 "itemStyle": {
-                    "color": '#B3E4A1'
+                    "color": '#3434C9'
                 },
                 "areaStyle": {
                     "opacity": 0.05
@@ -709,7 +709,7 @@ def Nutrition():
             "shape": 'circle',
             "splitNumber": 5,
             "axisName": {
-                "color": 'rgb(238, 197, 102)'
+                "color": 'rgb(0 , 0 , 0)'
             },
             "splitLine": {
                 "lineStyle": {
@@ -748,7 +748,7 @@ def Nutrition():
                 "data": data4,
                 "symbol": 'none',
                 "itemStyle": {
-                    "color": '#B3E4A1'
+                    "color": '#3434C9'
                 },
                 "areaStyle": {
                     "opacity": 0.05
@@ -784,7 +784,7 @@ def Nutrition():
             "shape": 'circle',
             "splitNumber": 5,
             "axisName": {
-                "color": 'rgb(238, 197, 102)'
+                "color": 'rgb(0 , 0 , 0)'
             },
             "splitLine": {
                 "lineStyle": {
@@ -823,7 +823,7 @@ def Nutrition():
                 "data": data5,
                 "symbol": 'none',
                 "itemStyle": {
-                    "color": '#B3E4A1'
+                    "color": '#3434C9'
                 },
                 "areaStyle": {
                     "opacity": 0.05
