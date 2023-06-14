@@ -539,10 +539,10 @@ def Nutrition():
         },
         "radar": {
             "indicator": [
-                {"name": 'Vitamin(mg)', "max": 90},
-                {"name": 'Protein(mg)', "max": 80},
-                {"name": 'Carbohydrate(g)', "max": 170},
-                {"name": 'Fat(kal)', "max": 230},
+                {"name": 'Vitamin', "max": 90},
+                {"name": 'Protein', "max": 80},
+                {"name": 'Carbohydrate', "max": 170},
+                {"name": 'Fat', "max": 230},
             ],
             "shape": 'circle',
             "splitNumber": 5,
@@ -573,7 +573,7 @@ def Nutrition():
                 "data": data1,
                 "symbol": 'none',
                 "itemStyle": {
-                    "color": '#F9713C'
+                    "color": '#F52929'
                 },
                 "areaStyle": {
                     "opacity": 0.1
@@ -614,10 +614,10 @@ def Nutrition():
         },
         "radar": {
             "indicator": [
-                {"name": 'Vitamin(mg)', "max": 90},
-                {"name": 'Protein(mg)', "max": 80},
-                {"name": 'Carbohydrate(g)', "max": 170},
-                {"name": 'Fat(kal)', "max": 230},
+                {"name": 'Vitamin', "max": 90},
+                {"name": 'Protein', "max": 80},
+                {"name": 'Carbohydrate', "max": 170},
+                {"name": 'Fat', "max": 230},
             ],
             "shape": 'circle',
             "splitNumber": 5,
@@ -648,7 +648,7 @@ def Nutrition():
                 "data": data1,
                 "symbol": 'none',
                 "itemStyle": {
-                    "color": '#F9713C'
+                    "color": '#F52929'
                 },
                 "areaStyle": {
                     "opacity": 0.1
@@ -701,10 +701,10 @@ def Nutrition():
         },
         "radar": {
             "indicator": [
-                {"name": 'Vitamin(mg)', "max": 90},
-                {"name": 'Protein(mg)', "max": 80},
-                {"name": 'Carbohydrate(g)', "max": 170},
-                {"name": 'Fat(kal)', "max": 230},
+                {"name": 'Vitamin', "max": 90},
+                {"name": 'Protein', "max": 80},
+                {"name": 'Carbohydrate', "max": 170},
+                {"name": 'Fat', "max": 230},
             ],
             "shape": 'circle',
             "splitNumber": 5,
@@ -735,7 +735,7 @@ def Nutrition():
                 "data": data1,
                 "symbol": 'none',
                 "itemStyle": {
-                    "color": '#F9713C'
+                    "color": '#F52929'
                 },
                 "areaStyle": {
                     "opacity": 0.1
@@ -776,10 +776,10 @@ def Nutrition():
         },
         "radar": {
             "indicator": [
-                {"name": 'Vitamin(mg)', "max": 90},
-                {"name": 'Protein(mg)', "max": 80},
-                {"name": 'Carbohydrate(g)', "max": 170},
-                {"name": 'Fat(kal)', "max": 230},
+                {"name": 'Vitamin', "max": 90},
+                {"name": 'Protein', "max": 80},
+                {"name": 'Carbohydrate', "max": 170},
+                {"name": 'Fat', "max": 230},
             ],
             "shape": 'circle',
             "splitNumber": 5,
@@ -810,7 +810,7 @@ def Nutrition():
                 "data": data1,
                 "symbol": 'none',
                 "itemStyle": {
-                    "color": '#F9713C'
+                    "color": '#F52929'
                 },
                 "areaStyle": {
                     "opacity": 0.1
